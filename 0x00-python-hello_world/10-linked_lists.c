@@ -54,7 +54,7 @@ listint_t *add_nodeint(listint_t **head, const int n)
 
 void free_listint(listint_t *head)
 {
-	istint_t *current;
+	listint_t *current;
 
 	while (head != NULL)
 	{

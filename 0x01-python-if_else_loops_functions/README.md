@@ -1,0 +1,1 @@
+1.0 This first program will assign a random signed number to the variable number each time it is executed.I completed the source code in order to print whether the number stored in the variable number is positive or negative.

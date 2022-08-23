@@ -12,4 +12,5 @@ if reminder > 5:
 elif reminder == 0:
     print(f"Last digit of {number:d} is {reminder:d} and is 0")
 else:
-    print("Last digit of {} is {} and is less than 6 and not 0".format(number, reminder))
+    print("Last digit of {} is {} and is less than 6 and not 0"
+            .format(number, reminder)

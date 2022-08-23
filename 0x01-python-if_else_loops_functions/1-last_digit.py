@@ -9,8 +9,8 @@ else:
 
 print(f"Last digit of {number:d} is {reminder:d} and is ", end="")
 if reminder > 5:
-     print("greater than 5")
+    print("greater than 5")
 elif reminder == 0:
-     print("0")
+    print("0")
 else:
-     print("less than 6 and not 0")
+    print("less than 6 and not 0")

@@ -67,3 +67,4 @@ listint_t *insert_node(listint_t **head, int number)
 	/* if new node is greatest and never inserted, insert now */
 	tmp->next = new;
 	return (new);
+}

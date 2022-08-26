@@ -6,7 +6,8 @@ if __name__ == "__main__":
    size = len(argv[1:])
 
    print("{:d} {:s}{:s}".
-           formart(size, "arguments" if (size) is not 1 else "agurments",
-               "." if (size) is 0 else ":"))
+           format(size, 
+               "arguments" if (size) != 1 else "agurments",
+               "." if (size) == 0 else ":"))
    for index, arg in enumerate(argv[1:]):
        print("{:d}: {:s}".format(index +1, arg))
